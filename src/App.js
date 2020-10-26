@@ -11,11 +11,11 @@ function App() {
           <h1 className="title red">jsx-test</h1>
           <Button variant="primary">Primary</Button>
           <br />
-          <img width="200px" height="200px"  src={imageInSrc} alt="imageInSrc" />
+          <img src={imageInSrc} alt="imageInSrc" />
           <br />
-          <img width="200px" height="200px" src="/imageInPublic.jpg" alt="imageInPublic" />
+          <img src="/imageInPublic.jpg" alt="imageInPublic" />
         </div>
-        <video controls width={200.5} height={200.5}>
+        <video controls width={500.5} height={500.5}>
           <source src="/Little Things That Matter.mp4" type="video/mp4" />
         </video>
       </div>
